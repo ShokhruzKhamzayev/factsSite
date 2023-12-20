@@ -26,7 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.container {
+.container-site {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,14 +35,14 @@ body {
   margin: 0px auto;
 }
 
-.container main {
+.container-site main {
   min-height: 50vh;
 }
 
-.container header {
+.container-site header {
   min-height: 10vh;
 }
 
-.container footer {
+.container-site footer {
   height: 20vh;
 }
