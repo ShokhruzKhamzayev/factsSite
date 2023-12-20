@@ -27,6 +27,22 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
   max-width: 90%;
   margin: 0px auto;
+}
+
+.container main {
+  min-height: 70vh;
+}
+
+.container header {
+  min-height: 10vh;
+}
+
+.container footer {
+  min-height: 20vh;
 }

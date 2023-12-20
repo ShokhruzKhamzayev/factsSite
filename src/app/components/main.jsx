@@ -31,7 +31,7 @@ export default function Main() {
                 loading ? (
                     <Loader />
                 ) : (
-                    <>
+                    <div>
                         <main className='min-h-80 flex justify-center items-center flex-col'>
                             <div>
                                 <h1>
@@ -47,7 +47,7 @@ export default function Main() {
                         <footer>
                             <ContactUs />
                         </footer>
-                    </>
+                    </div>
                 )
             }
         </div>
