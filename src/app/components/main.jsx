@@ -4,6 +4,7 @@ import { fetchingFacts } from '../lib/api'
 import { ContactUs } from './contact'
 import Loader from './loader'
 
+
 export default function Main() {
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)

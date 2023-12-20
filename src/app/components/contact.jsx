@@ -1,6 +1,14 @@
 'use client'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
+const notify = () => {
+    toast.success('Your Message sent✅', {
+        position: toast.POSITION.TOP_CENTER
+    })
+    console.log(1);
+}
 
 export const ContactUs = () => {
     const form = useRef();
@@ -27,7 +35,9 @@ export const ContactUs = () => {
             <label className='flex flex-col'>Message
                 <textarea className='border rounded-md bg-transparent min-w-full' name="message" />
             </label>
-            <input type="submit" value="Send" className='border max-w-fit mx-auto py-2 px-5 rounded-xl mt-3'/>
+            <input type="submit" value="Send" onClick={notify} className='border max-w-fit mx-auto py-2 px-5 rounded-xl mt-3' />
+            <ToastContainer />
+
         </form>
     );
 };
