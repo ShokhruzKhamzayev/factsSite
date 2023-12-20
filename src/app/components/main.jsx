@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { fetchingFacts } from '../lib/api'
-import { ContactUs } from './contact/page'
+import { ContactUs } from './contact'
 import Loader from './loader'
 
 export default function Main() {
