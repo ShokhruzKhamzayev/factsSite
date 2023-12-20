@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    overflow-y: hidden;
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
 }
 
 .container main {
-  min-height: 70vh;
+  min-height: 50vh;
 }
 
 .container header {
@@ -44,5 +45,5 @@ body {
 }
 
 .container footer {
-  min-height: 20vh;
+  height: 20vh;
 }

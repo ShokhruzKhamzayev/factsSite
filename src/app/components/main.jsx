@@ -32,7 +32,7 @@ export default function Main() {
                     <Loader />
                 ) : (
                     <div>
-                        <main className='min-h-80 flex justify-center items-center flex-col'>
+                        <main className='min-h-80 flex justify-center items-center flex-col gap-10'>
                             <div>
                                 <h1>
                                     {
