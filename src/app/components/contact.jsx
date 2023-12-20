@@ -18,16 +18,16 @@ export const ContactUs = () => {
 
     return (
         <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-3'>
-            <label>Name
-                <input className='text-slate-900' type="text" name="user_name" />
+            <label className='flex flex-col items-center'>Name
+                <input className='min-w-full bg-transparent border rounded-md' type="text" name="user_name" />
             </label>
-            <label>Email
-                <input className='text-slate-900' type="email" name="user_email" />
+            <label className='flex flex-col items-center'>Email
+                <input className='min-w-full bg-transparent border rounded-md' type="email" name="user_email" />
             </label>
-            <label>Message
-                <textarea className='text-slate-900' name="message" />
+            <label className='flex flex-col items-center'>Message
+                <textarea className='border rounded-md bg-transparent min-w-full' name="message" />
             </label>
-            <input type="submit" value="Send" />
+            <input type="submit" value="Send" className='border max-w-fit mx-auto py-2 px-5 rounded-xl mt-3'/>
         </form>
     );
 };
