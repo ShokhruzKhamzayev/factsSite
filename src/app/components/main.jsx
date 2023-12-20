@@ -47,7 +47,7 @@ export default function Main() {
                         </main>
                         <footer>
                             <ContactUs />
-                            <a className='flex justify-center items-center text-blue-700 underline' href="#">Telegram</a>
+                                <a className='flex justify-center items-center text-blue-700 underline' href="https://t.me/Khamzayev_Shokhruz">Telegram</a>
                         </footer>
                     </div>
                 )
